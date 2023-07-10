@@ -12,6 +12,15 @@ font-weight: 700;
 /* line-height: normal; */
 }
 
+.section-description{
+    color:  #757575;
+    text-align: center;
+    /* font-family: Open Sans; */
+    font-size: 18px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* line-height: 30px; */
+}
 /* nav related style  */
 nav{
     display: flex;
@@ -90,12 +99,21 @@ margin-bottom: 20px;
 max-width: 500px;
 }
 
-/* m    ain section styles   */ 
+/* main section styles   */ 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about{
     padding: 130px;
 
     border-radius: 10px;
     background: #FFF8F3;
+    margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
 
